@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabla-Css</title>
+</head>
+<body>
+
+    <h2>Secciones</h2>
+    <nav>
+    <ul>
+        <li><a href=#Css>Css</a></li>
+        <li><a href=#JavaScript>JavaScript</a></li>
+        <li><a href=#TablaDeAtributos>Tabla De Atributos Css</a></li>
+    </ul>
+</nav>
+
+<h1><center>Definiciones</center></h1>
+
+<section id="Css">
+<h2>* Css</h2>
+<p>Css es un lenguaje de diseño hecho para agragar estilos a paginas escritas en HTML o XML con el fin de hacerlas mas llamativas y mas comodas a la vista. 
+    Gracias a este lenguaje las paginas son menos cuadriculadas y el usuario puede entener mejor el proposito y opciones que la pagina ofrece.</p>
+    <a href="https://sergiosanz.dev/blog/12-buenas-practicas-de-html-y-css/" target="_blank">
+        <img src="https://sergiosanz.dev/static/b0ad08bfda05fba464bf2927db87772d/6df68/html-css.png" alt="Css" style="width: 300px; cursor: pointer;">
+    </a>
+</section>
+
+<section id="JavaScript">
+<h2>* JavaScript</h2>
+<p>JavaScript es un lenguaje de alto nivel orientado a objetos y principalmente va vinculado con una pagina HTML para creaciones de paginas web. 
+    Esta es mayormente usada para un uso mas orientado a cosas complejas como lo son proyecciones de objetos 3D/2D y tambien es capaz de tener
+    la pagina web constantemente actualizada.</p>
+    <a href="https://soyhorizonte.com/blog/que-es-javascript-y-como-funciona/" target="_blank">
+        <img src="https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg" alt="JavaScript" style="width: 300px; cursor: pointer;">
+    </a>
+</section>
+
+<h1><center>Tabla Css</center></h1>
+<section id="TablaDeAtributos">
+<h2>* Tabla De Atributos Css</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nombre Del Atributo</th><th>Descripcion</th><th>Valores Posibles</th><th>Ejemplo De Uso</th><th>Imagen Representativa</th><th>Fuente De Informacion</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>&lt;font-size&gt;</td><td>Se usa para definir el tamaño de texto.</td><td>16 px</td><td><pre>h1 { font-size: 2em; }
+            p { font-size: 120%; }
+            span { font-size: 1.5rem; }</pre></td><td><img src="https://media.geeksforgeeks.org/wp-content/uploads/fontsize1.png" alt="front-size" style="width: 300ox;"></td><td><a href="https://www.geeksforgeeks.org/css-font-size-property/">https://www.geeksforgeeks.org/css-font-size-property/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;border-radious&gt;</td><td>Se usa para redondear las esquinas de un elemento.</td><td>100 px 50 %</td><td><pre>div {
+            border-radius: 50px / 25px; 
+        }</pre></td><td><img src="https://mgearon.com/wp-content/uploads/2020/07/css-border-radius.png" alt="border-radious" style="width: 300px;"></td><td><a href="https://mgearon.com/css/border-radius/">https://mgearon.com/css/border-radius/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;display&gt; (display: flex;)</td><td>Se usa para definir como se comporta un elemnto, si se m uestra en linea, en bloque o contenedor flexible.</td><td>block, inline, inline-block-none</td><td><pre>nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        li {
+            display: inline-block;
+        }</pre></td><td><img src="https://i.ytimg.com/vi/dPfn_PdZoUU/maxresdefault.jpg" alt="display" style="width: 300px;"></td><td><a href="https://www.youtube.com/watch?v=dPfn_PdZoUU">https://www.youtube.com/watch?v=dPfn_PdZoUU</a></td>
+    </tr>
+    <tr>
+        <td>&lt;flexbox&gt;</td><td>Es muy similar a display, pero este permite alinear y distribuir elementos dentro de un contenedor de una manera eficiente, incluso cuando sus tamaños son dinamicos.</td><td>row, row-reverse, column, column-reverse</td><td><pre>.container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }</pre></td><td><img src="https://mastercodepro.com/wp-content/uploads/2025/01/css-flex-box.jpg" alt="flexbox" style="width: 300px;"></td><td><a href="https://mastercodepro.com/flexbox-en-css-la-guia-definitiva-para-dominar-el-diseno-flexible/">https://mastercodepro.com/flexbox-en-css-la-guia-definitiva-para-dominar-el-diseno-flexible/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;position&gt;</td><td>Se usa para definir la posicion de un elemento.</td><td>static, relative, absolute, fixed, sticky</td><td><pre>.container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+        }
+        
+        .box {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }</pre></td><td><img src="https://chenhuijing.com/assets/images/posts/css-positioning.jpg" alt="position" style="width: 300px;"></td><td><a href="https://chenhuijing.com/blog/understanding-positioning-in-css/">https://chenhuijing.com/blog/understanding-positioning-in-css/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;box-shadow&gt;</td><td>Se usa para agragarle sombras a los elementos.</td><td>desplazamientoX, desplazamientoY, desenfoque, extension, color</td><td><pre>.element {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }</pre></td><td><img src="https://codeconvey.com/wp-content/uploads/2019/05/box-shadow-effect-in-css.jpg.webp" alt="box-shadow" style="width: 300px;"></td><td><a href="https://codeconvey.com/how-to-create-box-shadow-effect-in-css/">https://codeconvey.com/how-to-create-box-shadow-effect-in-css/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;overflow&gt;</td><td>Se usa para controlar el contenido de un elemento que es mas grande que su contenedor.</td><td>visible, hidden, scroll, auto</td><td><pre>.container {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            overflow: auto;
+        }</pre></td><td><img src="https://lh3.googleusercontent.com/-tVNmvecB8A4/Ukqdi769oPI/AAAAAAAAAd0/kgisEf3RGRk/s538/CU01038D_1.png" alt="overflow" style="width: 300px;"></td><td><a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=743:overflow-css-scroll-overflow-x-overflow-y-propiedad-visibility-visible-hidden-collapse-ejemplos-cu01038d&catid=75&Itemid=203">https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=743:overflow-css-scroll-overflow-x-overflow-y-propiedad-visibility-visible-hidden-collapse-ejemplos-cu01038d&catid=75&Itemid=203</a></td>
+    </tr>
+    <tr>
+        <td>&lt;z-index&gt;</td><td>Se usa para controlar la posicion de un elemento en el eje Z.</td><td>auto, z-index</td><td><pre>.container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        
+        .blue {
+            background-color: blue;
+            z-index: 1;
+        }
+        
+        .red {
+            background-color: red;
+            top: 20px;
+            left: 20px;
+            z-index: 2; /* Aparece encima de la azul */
+        }</pre></td><td><img src="https://cdn.tutsplus.com/cdn-cgi/image/width=600/webdesign/uploads/2013/11/stacking1.png" alt="z-index" style="width: 300px;"></td><td><a href="https://webdesign.tutsplus.com/es/lo-que-quiza-desconozcas-sobre-la-propiedad-z-index--webdesign-16892a">https://webdesign.tutsplus.com/es/lo-que-quiza-desconozcas-sobre-la-propiedad-z-index--webdesign-16892a</a></td>
+    </tr>
+    <tr>
+        <td>&lt;opacity&gt;</td><td>Se usa para controlar la transparencia de un objeto.</td><td>1, 0.5, 0</td><td><pre>.button {
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+        
+        .button:hover {
+            opacity: 1;
+        }</pre></td><td><img src="https://media.geeksforgeeks.org/wp-content/uploads/opacity4.png" alt="opacity" style="width: 300px;"></td><td><a href="https://www.geeksforgeeks.org/css-opacity-transparency/">https://www.geeksforgeeks.org/css-opacity-transparency/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;margin&gt;&lt;padding&gt;</td><td><b>Margin:</b> Controla el espacio externo alrededor de un elemento. <b>Padding:</b> Controla el espacio interno, entre el contenido y el borde del elemento.</td><td>auto, 0, px, %, em, rem, vh, vw</td><td><pre>.container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .box {
+            width: 200px;
+            height: 100px;
+            background: lightblue;
+            margin: auto;
+        }</pre></td><td><img src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2022/09/image-163.png" alt="margin-padding" style="width: 300px;"></td><td><a href="https://www.hostinger.com/es/tutoriales/padding-vs-margin">https://www.hostinger.com/es/tutoriales/padding-vs-margin</a></td>
+    </tr>
+    <tr>
+        <td>&lt;background-color&gt;</td><td>Se usa para definir el color de fondo de un elemento.</td><td>#RRGGBB, rgb(r, g, b)</td><td><pre>.container {
+            width: 200px;
+            height: 100px;
+            background-color: rgba(255, 0, 0, 0.5);
+        }</pre></td><td><img src="https://images.tpointtech.com/csspages/images/how-to-change-background-color-in-css1.png" alt="background-color" style="width: 300px;"></td><td><a href="https://www.tpointtech.com/how-to-change-background-color-in-css">https://www.tpointtech.com/how-to-change-background-color-in-css</a></td>
+    </tr>
+    <tr>
+        <td>&lt;text-aling&gt;</td><td>Se usa para alinear un texto dentro de un elemento.</td><td>left, right, center, justify, inherit</td><td><pre>.container {
+            width: 300px;
+            border: 1px solid black;
+        }
+        
+        .text {
+            text-align: center;
+        }</pre></td><td><img src="https://eqsash.com/custom/files/images/articles/css-text-align-values.jpg" alt="text-aling" style="width: 300px;"></td><td><a href="https://eqsash.com/articles/kak-sdelat-vyravnivanie-elementa-pri-pomoshchi-css-svoystva-text-align?l=en">https://eqsash.com/articles/kak-sdelat-vyravnivanie-elementa-pri-pomoshchi-css-svoystva-text-align?l=en</a></td>
+    </tr>
+    <tr>
+        <td>&lt;cursor&gt;</td><td>Se usa para cambiar la forma del cursor o puintero cuando se pasa por encima de un elemento.</td><td>deafult, pointer, text, move, not-allowed, wait, crosshair, zoom-in, grab</td><td><pre>.button {
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }</pre></td><td><img src="https://codingartistweb.com/wp-content/uploads/2023/09/Custom-Cursor.jpeg" alt="cursor" style="width: 300px;"></td><td><a href="https://codingartistweb.com/2023/09/custom-cursor/">https://codingartistweb.com/2023/09/custom-cursor/</a></td>
+    </tr>
+    <tr>
+        <td>&lt;visibility&gt;</td><td>Se usa para controlar si un elemento es visible o no sin alterar su espacio en la pagina.</td><td>visible, hidden, collapse, inherit</td><td><pre>&lt;div class="box"&gt;Soy visible&lt;/div&gt;
+            &lt;div class="box hidden"&gt;Estoy oculto, pero ocupo espacio&lt;/div&gt;</pre></td><td><img src="https://media.licdn.com/dms/image/v2/C4E22AQGmCG6UgjgPzg/feedshare-shrink_800/feedshare-shrink_800/0/1645186009368?e=2147483647&v=beta&t=cCuv-FMig1BiSYRlspK-gGdu3jF2YTZejoteNA-b3BA" alt="visibility" style="width: 300px;"></td><td><a href="https://www.linkedin.com/posts/vladimir-bogicevic_css-frontend-activity-6900410265901305856-9bIH">https://www.linkedin.com/posts/vladimir-bogicevic_css-frontend-activity-6900410265901305856-9bIH</a></td>
+    </tr>
+</table>
+</section>
+</body>
+</html>
